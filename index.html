@@ -695,7 +695,108 @@
     transform: translateY(-2px);
 }
 
+  @media (max-width: 768px) {
 
+  h1 {
+    font-size: 2.3rem;
+    line-height: 1.1;
+  }
+
+  .hero-roles {
+    font-size: 0.85rem;
+  }
+
+  .hero-desc {
+    font-size: 0.95rem;
+  }
+
+  .hero-stats {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+  }
+
+  .stat-num {
+    font-size: 1.5rem;
+  }
+}
+
+  @media (max-width:768px){
+
+  nav{
+      padding:12px 18px;
+  }
+
+  .nav-logo img{
+      width:140px;
+      height:auto;
+  }
+
+  .nav-cta{
+      padding:8px 12px;
+      font-size:0.65rem;
+  }
+}
+
+
+@media (max-width:768px){
+
+  .hero-actions{
+      flex-direction:column;
+      align-items:stretch;
+      width:100%;
+  }
+
+  .btn-primary,
+  .btn-ghost{
+      text-align:center;
+      width:100%;
+  }
+}
+
+
+@media (max-width:768px){
+
+  .photo-frame{
+      width:220px;
+      height:280px;
+  }
+}
+
+  @media (max-width:768px){
+
+  .project-card,
+  .cert-card,
+  .edu-card{
+      padding:20px;
+  }
+
+  .project-name{
+      font-size:1.3rem;
+  }
+
+  .section-wrap{
+      padding:70px 18px;
+  }
+}
+
+  @media (max-width:768px){
+
+  #bg3d{
+      display:none;
+  }
+
+  .glow-orb{
+      display:none;
+  }
+
+  .reveal-3d,
+  .reveal-left,
+  .reveal-right{
+      opacity:1;
+      transform:none;
+  }
+}
 </style>
 </head>
 <body>
@@ -1031,8 +1132,8 @@
           &nbsp;&nbsp;<span class="t-key">role</span>: <span class="t-str">"Data Analyst + SWE"</span>,<br/>
           &nbsp;&nbsp;<span class="t-key">location</span>: <span class="t-str">"Chennai, Tamil Nadu"</span>,<br/>
           &nbsp;&nbsp;<span class="t-key">cgpa</span>: <span class="t-val">8.0</span>,<br/>
-          &nbsp;&nbsp;<span class="t-key">openTo</span>: <span class="t-str">"MNC roles in Chennai"</span>,<br/>
-          &nbsp;&nbsp;<span class="t-key">status</span>: <span class="t-str">"Final Year B.E. CSE"</span><br/>
+          &nbsp;&nbsp;<span class="t-key">openTo</span>: <span class="t-str">"Software Engineering & Data Roles"</span>,<br/>
+          &nbsp;&nbsp;<span class="t-key">status</span>: <span class="t-str">"B.E. Computer Science Graduate"</span><br/>
           };
         </div>
         <p>I'm a <strong>Computer Science graduate</strong> with proven experience in data analytics, software engineering, and product-focused development. From analysing 50,000+ patient records at Apollo Hospitals to delivering production-ready React components at Bluestock Fintech, I have consistently translated complex data and business requirements into scalable, high-impact solutions.</p>
